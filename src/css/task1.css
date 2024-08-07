@@ -1,0 +1,172 @@
+
+body{
+    background-color:aquamarine;
+  }
+  .nav-name{
+    background-color:coral;
+    
+    height: 17vh;
+    font-size: x-large;
+  
+    
+  }
+ 
+  .ul-name{
+    display: flex;
+  
+  
+  justify-content: space-around;
+  
+  }
+  .li-nav{
+    list-style-type: none;
+    text-decoration: none;
+    
+  font-size: 1.2rem;
+  margin: 30px;
+  list-style: none;
+  
+  
+  }
+  .reg-name,.log-name,.con-name{
+    color:cornsilk;
+  text-decoration: none;
+  font-size: 1.2rem;
+  
+  }
+  .reg-name:hover,.log-name:hover,.con-name:hover{
+  text-decoration:chocolate;
+  background-color:#4CAF50;
+  }
+  .div-tag{
+    text-align: center;
+  }
+  .btn-tag{
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  
+  
+  
+  /* Registration styling */
+  .registration-form {
+    width: 500px;
+    border: 1px ;
+    border-style: groove;
+    border-color: darkviolet;
+    border-radius: 2%;
+    box-shadow: 0 0 20px rgba(246, 239, 239, 0.2);
+    margin: 50px auto;
+    padding: 20px;
+    
+   
+  
+  }
+  
+  .registration-form h2 {
+    text-align: center;
+  }
+  
+  .registration-form div {
+    margin-bottom: 10px;
+  }
+  
+  .registration-form label {
+    display: block;
+   
+  }
+  
+  .registration-form input, .registration-form select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color:firebrick;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    background-color:darkorchid;
+  }
+  
+  
+  /* Login styling */
+  
+  .login-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px groove darkmagenta;
+    border-radius: 4px;
+   
+    box-shadow: 0 0 20px rgba(246, 239, 239, 0.2);
+  
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color:lavenderblush;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  /* contact styling*/
+  
+  .contact-div{
+    width: 500px;
+    border: 1px groove darkorchid;
+    border-radius: 2%;
+   padding: 20px;
+    margin-left:150px;
+    margin-top: 150px;
+    margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(246, 239, 239, 0.2);
+  
+  }
+  .contact-form{
+    align-items: center;
+  
+  }
+  .text-cont{
+    width: 100%;
+    height: 17vh;
+  }
+  .contact-div h2{
+    text-align: center;
+  
+  }
